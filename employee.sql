@@ -4,13 +4,13 @@ WHERE city = 'Calgary';
 
 -- 2. Find the birthdate for the youngest employee.
 SELECT birth_date FROM employee
-ORDER BY birth_date
+ORDER BY birth_date DESC
 LIMIT (1);
 
 
 -- 3. Find the birthdate for the oldest employee.
 SELECT birth_date FROM employee
-ORDER BY birth_date DESC
+ORDER BY birth_date
 LIMIT (1);
 ;
 
